@@ -12,5 +12,7 @@ public class MainApp {
                     new ClassPathXmlApplicationContext("Beans.xml");
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
         obj.getMessage();
+
+        BeanFactorySample.test();
     }
 }
