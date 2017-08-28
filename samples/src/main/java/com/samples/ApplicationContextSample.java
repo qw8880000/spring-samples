@@ -13,4 +13,8 @@ public class ApplicationContextSample {
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
         obj.getMessage();
     }
+
+    public static void main(String[] args) {
+        test();
+    }
 }

@@ -15,4 +15,8 @@ public class BeanFactorySample {
         HelloWorld obj = (HelloWorld) factory.getBean("helloWorld");
         obj.getMessage();
     }
+
+    public static void main(String[] args) {
+        test();
+    }
 }
