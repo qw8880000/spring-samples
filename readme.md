@@ -7,7 +7,8 @@
     * [Spring BeanFactory 容器](./samples/src/main/java/com/samples/BeanFactorySample)
     * [Spring ApplicationContext 容器](./samples/src/main/java/com/samples/ApplicationContextSample.java)
     * Spring Bean 定义
-    * [Spring Bean 作用域](./samples/src/main/java/com/samples/BeanScopeSingletonSample.java)
+    * [Spring Bean 作用域 singleton](./samples/src/main/java/com/samples/BeanScopeSingletonSample.java)
+    * [Spring Bean 作用域 prototype](./samples/src/main/java/com/samples/BeanScopePrototypeSample.java)
     * [Spring Bean 生命周期](./samples/src/main/java/com/samples/BeanLifeCycleSample.java)
     * [Spring Bean 后置处理器](./samples/src/main/java/com/samples/BeanPostProcessorSample.java)
     * Spring Bean 定义继承
