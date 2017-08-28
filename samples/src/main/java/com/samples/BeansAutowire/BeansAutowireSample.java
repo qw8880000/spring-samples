@@ -8,13 +8,21 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class BeansAutowireSample {
     static public void autowireByName() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.BeansAutowireByName.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.BeansAutowire.xml");
 
         TextEditor te = (TextEditor)context.getBean("textEditor");
         te.spellCheck();
     }
 
+    static public void autowireByType() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.BeansAutowire.xml");
+
+        TextEditor te = (TextEditor)context.getBean("textEditor2");
+        te.spellCheck();
+    }
+
     public static void main(String[] args) {
         autowireByName();
+        autowireByType();
     }
 }
