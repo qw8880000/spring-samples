@@ -8,8 +8,13 @@
     <bean id="textEditor" class="com.samples.BeansAutowire.TextEditor" autowire="byName">
     </bean>
 
-    <!-- Definition for textEditor bean -->
+    <!-- Definition for textEditor2 bean -->
     <bean id="textEditor2" class="com.samples.BeansAutowire.TextEditor" autowire="byType">
+    </bean>
+
+    <!-- Definition for newTextEditor bean -->
+    <bean id="newTextEditor" class="com.samples.BeansAutowire.NewTextEditor" autowire="constructor">
+        <constructor-arg value="Generic Text Editor"/>
     </bean>
 
     <!-- Definition for spellChecker bean -->

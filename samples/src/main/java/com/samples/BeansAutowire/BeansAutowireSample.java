@@ -21,8 +21,16 @@ public class BeansAutowireSample {
         te.spellCheck();
     }
 
+    static public void autowireByConstructor() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.BeansAutowire.xml");
+
+        NewTextEditor te = (NewTextEditor)context.getBean("newTextEditor");
+        te.spellCheck();
+    }
+
     public static void main(String[] args) {
         autowireByName();
         autowireByType();
+        autowireByConstructor();
     }
 }
