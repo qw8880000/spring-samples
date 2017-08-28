@@ -13,10 +13,10 @@ public class BeanScopeSingletonSample {
 
         HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
         objA.setMessage("I'm object A");
-        objA.getMessage();
+        System.out.println(objA.getMessage());
 
         HelloWorld objB = (HelloWorld) context.getBean("helloWorld");
-        objB.getMessage();
+        System.out.println(objB.getMessage());
 
     }
 

@@ -13,7 +13,7 @@ public class BeanFactorySample {
                 (new ClassPathResource("Beans.xml"));
 
         HelloWorld obj = (HelloWorld) factory.getBean("helloWorld");
-        obj.getMessage();
+        System.out.println(obj.getMessage());
     }
 
     public static void main(String[] args) {

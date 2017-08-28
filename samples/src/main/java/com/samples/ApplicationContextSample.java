@@ -11,7 +11,7 @@ public class ApplicationContextSample {
     static public void test() {
         ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-        obj.getMessage();
+        System.out.println(obj.getMessage());
     }
 
     public static void main(String[] args) {
