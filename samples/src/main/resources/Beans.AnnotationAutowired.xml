@@ -18,6 +18,10 @@
     <bean id="textEditor2" class="com.samples.AnnotationBasedConfiguration.TextEditor2">
     </bean>
 
+    <!-- Definition for textEditor3 bean without constructor-arg  -->
+    <bean id="textEditor3" class="com.samples.AnnotationBasedConfiguration.TextEditor3">
+    </bean>
+
     <!-- Definition for spellChecker bean -->
     <bean id="spellChecker" class="com.samples.AnnotationBasedConfiguration.SpellChecker">
     </bean>

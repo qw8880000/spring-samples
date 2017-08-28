@@ -24,8 +24,17 @@ public class AnnotationAutowiredSample {
         te.spellCheck();
     }
 
+    // @Autowired on Constructors
+    static public void constructorsAutowiredTest() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.AnnotationAutowired.xml");
+
+        TextEditor3 te = (TextEditor3) context.getBean("textEditor3");
+        te.spellCheck();
+    }
+
     public static void main(String[] args) {
         setterAutowiredTest();
         propertiesAutowiredTest();
+        constructorsAutowiredTest();
     }
 }
