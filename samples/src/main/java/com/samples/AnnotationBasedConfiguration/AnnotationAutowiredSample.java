@@ -7,13 +7,25 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Created by Administrator on 2017-08-28.
  */
 public class AnnotationAutowiredSample {
+
+    // @Autowired on Setter Methods
     static public void setterAutowiredTest() {
         ApplicationContext context = new ClassPathXmlApplicationContext("Beans.AnnotationAutowired.xml");
 
         TextEditor te = (TextEditor) context.getBean("textEditor");
         te.spellCheck();
     }
+
+    // @Autowired on Properties
+    static public void propertiesAutowiredTest() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.AnnotationAutowired.xml");
+
+        TextEditor2 te = (TextEditor2) context.getBean("textEditor2");
+        te.spellCheck();
+    }
+
     public static void main(String[] args) {
         setterAutowiredTest();
+        propertiesAutowiredTest();
     }
 }
