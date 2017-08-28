@@ -1,4 +1,4 @@
-package com.samples.DIConstructorBase;
+package com.samples.DIInnerBeans;
 
 /**
  * Created by Administrator on 2017-08-28.
@@ -6,9 +6,9 @@ package com.samples.DIConstructorBase;
 
 public class TextEditor {
     private SpellChecker spellChecker;
-    public TextEditor(SpellChecker spellChecker) {
-        System.out.println("Inside TextEditor constructor." );
+    public void setSpellChecker(SpellChecker spellChecker){
         this.spellChecker = spellChecker;
+        System.out.println("TextEditor's spellChecker is set");
     }
     public void spellCheck() {
         spellChecker.checkSpelling();
