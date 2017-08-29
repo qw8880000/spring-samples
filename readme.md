@@ -26,9 +26,9 @@
     * [Spring @Autowired 注释](./samples/src/main/java/com/samples/AnnotationBasedConfiguration/)
     * Spring @Qualifier 注释
     * Spring JSR-250 注释
-    * [Spring 基于 Java 的配置](./samples/src/main/java/com/samples/)
-    * [Spring 中的事件处理](./samples/src/main/java/com/samples/)
-    * [Spring 中的自定义事件](./samples/src/main/java/com/samples/)
+    * [Spring 基于 Java 的配置](./samples/src/main/java/com/samples/JavaBasedConfiguration/)
+    * Spring 中的事件处理
+    * Spring 中的自定义事件
 + Spring 框架的 AOP
     * [Spring 中基于 AOP 的 XML架构](./samples/src/main/java/com/samples/)
     * [Spring 中基于 AOP 的 @AspectJ](./samples/src/main/java/com/samples/)
