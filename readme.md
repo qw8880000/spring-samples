@@ -24,8 +24,8 @@
 + Spring 基于注解的配置
     * [Spring @Required 注释](./samples/src/main/java/com/samples/AnnotationBasedConfiguration/)
     * [Spring @Autowired 注释](./samples/src/main/java/com/samples/AnnotationBasedConfiguration/)
-    * [Spring @Qualifier 注释](./samples/src/main/java/com/samples/AnnotationBasedConfiguration/)
-    * [Spring JSR-250 注释](./samples/src/main/java/com/samples/)
+    * Spring @Qualifier 注释
+    * Spring JSR-250 注释
     * [Spring 基于 Java 的配置](./samples/src/main/java/com/samples/)
     * [Spring 中的事件处理](./samples/src/main/java/com/samples/)
     * [Spring 中的自定义事件](./samples/src/main/java/com/samples/)
