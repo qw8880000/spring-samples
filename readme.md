@@ -30,19 +30,19 @@
     * Spring 中的事件处理
     * Spring 中的自定义事件
 + Spring 框架的 AOP
-    * [Spring 中基于 AOP 的 XML架构](./samples/src/main/java/com/samples/)
-    * [Spring 中基于 AOP 的 @AspectJ](./samples/src/main/java/com/samples/)
+    * [Spring 中基于 AOP 的 XML架构](./samples/src/main/java/com/samples/AopXmlBased/)
+    * [Spring 中基于 AOP 的 @AspectJ](./samples/src/main/java/com/samples/AopAspectJBased/)
 + Spring JDBC 框架
-    * [Spring JDBC 示例](./samples/src/main/java/com/samples/)
-    * [Spring 中 SQL 的存储过程](./samples/src/main/java/com/samples/)
+    * [Spring JDBC 示例](./samples/src/main/java/com/samples/JDBC/)
+    * Spring 中 SQL 的存储过程
 + Spring 事务管理
-    * [Spring 编程式事务管理](./samples/src/main/java/com/samples/)
-    * [Spring 声明式事务管理](./samples/src/main/java/com/samples/)
+    * Spring 编程式事务管理
+    * Spring 声明式事务管理
 + Spring Web MVC 框架
-    * [Spring MVC Hello World 例子](./samples/src/main/java/com/samples/)
-    * [Spring MVC 表单处理例子](./samples/src/main/java/com/samples/)
-    * [Spring 页面重定向例子](./samples/src/main/java/com/samples/)
-    * [Spring 静态页面例子](./samples/src/main/java/com/samples/)
-    * [Spring 异常处理例子](./samples/src/main/java/com/samples/)
-    * [Spring 使用 Log4J 记录日志](./samples/src/main/java/com/samples/)
+    * Spring MVC Hello World 例子
+    * Spring MVC 表单处理例子
+    * Spring 页面重定向例子
+    * Spring 静态页面例子
+    * Spring 异常处理例子
+    * Spring 使用 Log4J 记录日志
 
