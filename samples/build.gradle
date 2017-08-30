@@ -25,5 +25,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile('org.springframework:spring-aspects')
+	compile('org.springframework:spring-jdbc')
+	compile('mysql:mysql-connector-java') 						// MySQL database driver
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
